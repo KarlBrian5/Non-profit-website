@@ -1,0 +1,28 @@
+{% load static %}
+<nav class="navbar navbar-default navbar-sticky bootsnav">
+    <div class="container">
+        <div class="row">
+            <div class="attr-nav">
+                <a class="sponsor-button" href="sponsor-a-child/">sponsor a child</a>
+                <a class="donation" href="donate/">donate now</a>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand logo" href="/"><img src="{% static 'images/logo.png' %}"
+                        class="img-responsive" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about-us/">About Us</a></li>
+                    <li><a href="activities/">Activities</a></li>
+                    <li><a href="projects/">Projects</a></li>
+                    <li><a href="gallery/">Gallery</a></li>
+                    <li><a href="contact/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
